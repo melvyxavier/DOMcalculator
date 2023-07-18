@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Averia+Serif+Libre:wght@300&family=Cinzel&family=Cinzel+Decorative:wght@700;900&family=Cormorant+Garamond:wght@300&family=Dancing+Script:wght@700&family=Domine:wght@700&family=IBM+Plex+Mono:wght@500&family=Libre+Baskerville:wght@700&family=Mate+SC&family=Raleway&family=Roboto+Slab:wght@500&family=Shadows+Into+Light&display=swap');
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #895868;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 15px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #ce7498;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #f6738d;
+    color: white;
+    border: solid rgb(0, 0, 0) 0.5px;
+    width: 100%;
+    border-radius: 17px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
